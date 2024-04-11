@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGC GAMES</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="contenedornav">
+            <div id="divtitulo">
+                <img  class="imglogo" src="img/logo2.png">
+                <h1 class="titulopagina"> FGC Games </h1>
+            </div>
+        <nav class="nav">
+                <a class="indices" href="index.html">Inicio</a>
+                <a class="indices" href= "index.html#juegos">Juegos</a>
+                <a class="indices" href="conceptos.html">Conceptos</a>
+        </nav>
+        </div>
+    </header>
+
+<!-- Secciones conceptos -->
+<div class="margenes">
+  <div class="filtro">
+      <input type="radio" name="filtro" id="todos" checked>
+      <input type="radio" name="filtro" id="basicos">    
+      <input type="radio" name="filtro" id="intermedios">
+      <input type="radio" name="filtro" id="avanzados">
+
+      <label for="todos"> <span>Todos</span> </label>
+      <label for="basicos"> <span>Básicos</span> </label>
+      <label for="intermedios"> <span>Intermedios</span> </label>
+      <label for="avanzados"> <span>Avanzados</span> </label>
+  </div>
+  <!-- Seccion basicos -->
+    <div class="conceptos" id="basicos">
+      <div class="t-conceptos"> 
+        <img  class="imglogo" src="img/Dan.gif">
+        <h2>Conceptos basicos</h2>
+    </div> 
+      <div class="caja-conceptos">
+        <div class="concepto" id="controles">
+          <div>
+            <h2>Controles</h2>
+            <div class="contenido-concepto"> 
+              <div>
+                <p>Los controles, se refiere al set de acciones que tienen todos los personajes,</p>
+                <p>varia segun el juego, podemos encontrar esquemas de 4 a 6 botones</p>
+                <p>cada uno representa un golpe de golpe o patada con diferente potencia</p>
+                <p>tambien encontramos algunos tipos de golpes especificos, incluso un boton para las guardias u otras acciones.</p>
+              </div>
+              <div>
+                <img class="concepto-imagenes" src="img/controles.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="concepto" id="inputs">
+          <div>
+            <h2>Inputs / especiales</h2>
+            <div class="contenido-concepto"> 
+              <div>
+                <p>En los juegos de pelea 2D tradicionales podemos encontrar movimientos especiales</p>
+                <p>que se activan al ejecutar una secuencia de botones especifica en el orden correcto</p>
+                <p>y con el tiempo de ejecucion adecuado, estos varian segun el personaje y pueden ser</p>
+                <p>mas o menos complejos dependiendo de el personaje que estemos utilizando</p>
+              </div>
+              <div>
+                <img class="concepto-imagenes" src="img/inputs.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="concepto" id="interfaz">
+          <div>
+            <h2>Interfaz del juego</h2>
+            <div class="contenido-concepto"> 
+              <div>
+                <p>Son los elementos graficos de el juego que nos indican cosas como:</p>
+                <p>Barras de vida, barras de recursos (supers,ataques EX o indicadores especificos)</p>
+                <p> tiempo de la partida, contador de rounds ganados entre otros </p>
+              </div>
+              <div>
+                <img class="concepto-imagenes" src="img/lolillo.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- Secciones intermedios -->
+  <div class="conceptos" id="intermedios">
+    <div class="t-conceptos"> 
+      <img  class="imglogo" src="img/DeeJay.gif">
+      <h2>Conceptos intermedios</h2>
+    </div> 
+    <div class="caja-conceptos">
+      <div class="concepto" id="neutral">
+        <div>
+          <h2>Distancias de los golpes</h2>
+          <div class="contenido-concepto"> 
+            <div>
+              <p>Cada tipo de golpe desd el ligero hasta el pesado, tiene una distancia,</p>
+              <p>tiempos de inicio, recuperacion e impacto, normalmente los golpes ligeros</p>
+              <p>abarcan poca distancia, tienen poco daño y suelen usarse para distancias cercanas,</p>
+              <p>los golpes medios tienen un daño moderado, son buenas opciones para iniciar combos </p>
+              <p>y no te dejan tan expuesto ante el rival, los golpes pesados son los que tienen un buen daño </p>
+              <p>pero suelen tener tiempos de inicio y recuperacion muy largos, ademas de dejarte expuesto si fallas o son bloqueados. </p>
+            </div>
+            <div>
+              <img class="concepto-imagenes" src="img/distancias.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="concepto" id="tipos-de-golpe">
+        <div>
+          <h2>Tipos de golpe</h2>
+          <div class="contenido-concepto"> 
+            <div>
+              <p>Contamos con varios tipos de golpes enfocados a varias alturas:</p>
+              <p>  -Un golpe bajo impacta si el personaje rival esta parado o agachado pero no en el aire. </p>
+              <p>  -Un golpe medio es un ataque que impacta el personaje este parado o agachado.</p>
+              <p>  -Un golpe alto impacta si el personaje esta parado o en el aire pero no agachado.</p>
+              <p>  -Un golpe desde el aire puede impactar a cualquier altura y tiene la particularidad de</p>
+              <p>  abrir la defensa de rivales agachados, solo se puede cubrir estando de pie.</p>
+              <p>  -Un golpe overhead tiene las propiedades de uno desde el aire pero sin la necesidad.</p>
+              <p>  de saltar, puede ser mas rapido pero de fallar te deja expuesto. </p>
+            </div>
+            <div class="div-imagenes-conceptos">
+              <img src="img/overhead.gif">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="concepto" id="neutral">
+        <div>
+          <h2>Neutral</h2>
+          <div class="contenido-concepto"> 
+            <div>
+              <p>Se refiere a la distancia de inicio de cada pelea.</p>
+              <p>El neutral es el estado donde ningun jugador tiene ventaja sobre el otro</p>
+              <p> en esta estapa, buscamos aperturas en nuestro rival para conseguir daño </p>
+              <p> puede ser mediante golpes a distancia o combos </p>
+            </div>
+            <div>
+              <img class="concepto-imagenes" src="img/Neutral.gif">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Seccion avanzados -->
+  <div class="conceptos" id="avanzados">
+    <div class="t-conceptos"> 
+      <img  class="imglogo" src="img/oro-stance.gif">
+      <h2>Conceptos avanzados</h2>
+    </div> 
+    <div class="caja-conceptos">
+      <div class="concepto" id="combos">
+        <div>
+          <h2>Combos</h2>
+          <div class="contenido-concepto"> 
+            <div>
+              <p>Sucede despues de ganar el neutral, un combo se trata de una serie</p>
+              <p>de ataques consecutivos que se encadenan mediante hitstun</p>
+              <p> (tiempo de aturdimiento provocado por nuestro golpe), tambien</p>
+              <p> podemos encadenar mediante movimientos especiales que lancen al aire a nuestro rival.</p>
+              <p> Dependiendo de el juego, los combos pueden ser mas faciles o dificiles de encadenar.</p>
+            </div>
+            <div>
+              <img class="concepto-imagenes" src="img/combo.gif">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="concepto" id="hitboxes">
+        <div>
+          <h2>Hitboxes y hurtboxes</h2>
+          <div class="contenido-concepto"> 
+            <div>
+              <p>Se refiere a la logica interna del juego, esta determina las zonas</p>
+              <p>en que nuestros golpes son efectivos mediante cajas llamadas</p>
+              <p>hurtboxes (las verdes) encargadas de detectar cuando se recibe daño</p>
+              <p>y las hitboxes (las rojas) encargadas de detectar cuando un golpe es efectivo.</p>
+              <p>En algunos juegos tenemos la opcion de habilitarlas para diferentes propositos</p>
+            </div>
+            <div>
+              <img class="concepto-imagenes" src="img/hitboxes.gif">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="concepto" id="framedata">
+        <div>
+          <h2>Framedata</h2>
+          <div class="contenido-concepto"> 
+            <div>
+              <p>Informacion logica del juego, son los valores especificos que tienen</p>
+              <p>los ataques de los personajes, la framedata determina los frames de </p>
+              <p>inicio, golpe y recuperacion en numeros los cuales pueden servirnos</p>
+              <p>para saber que golpes son seguros de hacer sin recibir daño, que golpes no lo son</p>
+              <p>como actua el golpe al ser cubierto, al fallarlo entre muchas otras aplicaciones</p>
+            </div>
+            <div>
+              <img class="concepto-imagenes" src="img/framedata.gif">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
