@@ -205,6 +205,9 @@ body{
 .cajas-juegos:hover{
     border-color: #ffffff; 
     background-color: #cccccc11;
+    scale: 1.2;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
 }
 
 .img-juegos{
